@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blog - Content Management System
 This Blog System is developed using HTML, CSS, JavaScript, PHP and MySQL.
 To run this Blog System. Use the gdg.sql file and import it to your local PHPMyAdmin and then copy or clone the files to your local PHP Server directory.
@@ -15,3 +16,8 @@ It has all the features like:
 11) Featured Image
 12) Admin Dashboard
 13) Viewer Count for Each Post
+=======
+# miblog
+
+este es mi blog
+>>>>>>> 42e36c41ba88df922df9608ae4034637eb814b72
