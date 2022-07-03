@@ -1,0 +1,7 @@
+RewriteEngine on 
+RewriteCond %{HTTP_REFERER} !^http://localhost [NC] 
+RewriteCond %{HTTP_REFERER} !^http://192.168.1.10 [NC] 
+RewriteCond %{HTTP_REFERER} !^http://antiscandefender.sytes.net [NC] 
+RewriteCond %{HTTP_REFERER} !^http://larry.serveftp.com [NC]
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost.*$ [NC] 
+RewriteRule \.(gif|png|jpg|pdf|sql|txt|doc)$ - [F]
